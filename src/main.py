@@ -4,7 +4,7 @@ from random import choices
 NUMBER_OF_POINTS = 20000 # reduce this if it takes too long to render
 
 def fern(scale, y_shift):
-	"""Usage: create an object such as 'f = fern()' then use the next() to go to the enxt valie
+	"""Usage: create an object such as 'f = fern()' then use the next(f) to get the next value
 
 	Args:
 		scale (_type_): how x and y should be scaled for display
